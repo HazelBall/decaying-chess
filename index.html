@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decaying Chess</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Decaying Chess</h1>
+        <div id="game">
+            <ul id="board">
+                <div class="row" id="row8">
+                    <li class="box" id="b801">rook-b</li>
+                    <li class="box" id="b802">knight-b</li>
+                    <li class="box" id="b803">bishop-b</li>
+                    <li class="box" id="b804">queen-b</li>
+                    <li class="box" id="b805">king-b</li>
+                    <li class="box" id="b806">bishop-b</li>
+                    <li class="box" id="b807">knight-b</li>
+                    <li class="box" id="b808">rook-b</li>
+                </div>
+                <div class="row" id="row7">
+                    <li class="box" id="b701">pawn-b</li>
+                    <li class="box" id="b702">pawn-b</li>
+                    <li class="box" id="b703">pawn-b</li>
+                    <li class="box" id="b704">pawn-b</li>
+                    <li class="box" id="b705">pawn-b</li>
+                    <li class="box" id="b706">pawn-b</li>
+                    <li class="box" id="b707">pawn-b</li>
+                    <li class="box" id="b708">pawn-b</li>
+                </div>
+                <div class="row" id="row6">
+                    <li class="box" id="b601"></li>
+                    <li class="box" id="b602"></li>
+                    <li class="box" id="b603"></li>
+                    <li class="box" id="b604"></li>
+                    <li class="box" id="b605"></li>
+                    <li class="box" id="b606"></li>
+                    <li class="box" id="b607"></li>
+                    <li class="box" id="b608"></li>
+                </div>
+                <div class="row" id="row5">
+                    <li class="box" id="b501"></li>
+                    <li class="box" id="b502"></li>
+                    <li class="box" id="b503"></li>
+                    <li class="box" id="b504"></li>
+                    <li class="box" id="b505"></li>
+                    <li class="box" id="b506"></li>
+                    <li class="box" id="b507"></li>
+                    <li class="box" id="b508"></li>
+                </div>
+                <div class="row" id="row4">
+                    <li class="box" id="b401"></li>
+                    <li class="box" id="b402"></li>
+                    <li class="box" id="b403"></li>
+                    <li class="box" id="b404"></li>
+                    <li class="box" id="b405"></li>
+                    <li class="box" id="b406"></li>
+                    <li class="box" id="b407"></li>
+                    <li class="box" id="b408"></li>
+                </div>
+                <div class="row" id="row3">
+                    <li class="box" id="b301"></li>
+                    <li class="box" id="b302"></li>
+                    <li class="box" id="b303"></li>
+                    <li class="box" id="b304"></li>
+                    <li class="box" id="b305"></li>
+                    <li class="box" id="b306"></li>
+                    <li class="box" id="b307"></li>
+                    <li class="box" id="b308"></li>
+                </div>
+                <div class="row" id="row2">
+                    <li class="box" id="b201">pawn-w</li>
+                    <li class="box" id="b202">pawn-w</li>
+                    <li class="box" id="b203">pawn-w</li>
+                    <li class="box" id="b204">pawn-w</li>
+                    <li class="box" id="b205">pawn-w</li>
+                    <li class="box" id="b206">pawn-w</li>
+                    <li class="box" id="b207">pawn-w</li>
+                    <li class="box" id="b208">pawn-w</li>
+                </div>
+                <div class="row" id="row1">
+                    <li class="box" id="b101">rook-w</li>
+                    <li class="box" id="b102">knight-w</li>
+                    <li class="box" id="b103">bishop-w</li>
+                    <li class="box" id="b104">queen-w</li>
+                    <li class="box" id="b105">king-w</li>
+                    <li class="box" id="b106">bishop-w</li>
+                    <li class="box" id="b107">knight-w</li>
+                    <li class="box" id="b108">rook-w</li>
+                </div>
+            </ul>
+            <h2 id="tog">White's Turn</h2>
+            <h2 id="btn-reset">Reset Game</h2>
+        </div>
+    </div>
+    <script src = "app.js"></script>
+</body>
+</html>
